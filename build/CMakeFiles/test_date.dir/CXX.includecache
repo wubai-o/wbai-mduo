@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/study_shared_ptr/study/base/Date.h
+copyable.h
+/root/study_shared_ptr/study/base/copyable.h
+time.h
+-
+string
+-
+
+/root/study_shared_ptr/study/base/copyable.h
+
+/root/study_shared_ptr/tests/test_date.cc
+../study/base/Date.h
+/root/study_shared_ptr/study/base/Date.h
+iostream
+-
+

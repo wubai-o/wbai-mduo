@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror  -Wno-unused-function  -rdynamic CMakeFiles/signal_slot_test.dir/tests/signal_slot_test.cc.o  -o ../bin/signal_slot_test -Wl,-rpath,/root/study_shared_ptr/lib ../lib/libstudy.so -lpthread 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/study_shared_ptr/tests/test_fwrite_unlock.cc
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+sys/time.h
+-
+

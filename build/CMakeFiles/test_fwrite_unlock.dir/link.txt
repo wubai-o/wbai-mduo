@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -g -std=c++11 -Wall -Wno-deprecated -Werror  -Wno-unused-function  -rdynamic CMakeFiles/test_fwrite_unlock.dir/tests/test_fwrite_unlock.cc.o  -o ../bin/test_fwrite_unlock -Wl,-rpath,/root/study_shared_ptr/lib ../lib/libstudy.so -lpthread 

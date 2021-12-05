@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/study_shared_ptr/study/my_mutex.h
+thread
+-
+pthread.h
+-
+memory
+-
+
+/root/study_shared_ptr/study/signal_slot.cc
+signal_slot.h
+/root/study_shared_ptr/study/signal_slot.h
+
+/root/study_shared_ptr/study/signal_slot.h
+functional
+-
+memory
+-
+vector
+-
+mutex
+-
+assert.h
+-
+iostream
+-
+boost/shared_ptr.hpp
+-
+boost/weak_ptr.hpp
+-
+boost/noncopyable.hpp
+-
+cstdarg
+-
+my_mutex.h
+/root/study_shared_ptr/study/my_mutex.h
+
